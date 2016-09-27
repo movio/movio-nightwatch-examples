@@ -1,0 +1,33 @@
+{
+  "name": "movio-nightwatch-examples",
+  "version": "1.0.0",
+  "description": "Movio E2E test automation examples for Nightwatch",
+  "main": "",
+  "scripts": {
+    "test": "nightwatch --group tests",
+    "test:firefox": "nightwatch --env firefox --group tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:movio/movio-nightwatch-examples.git"
+  },
+  "author": "Simon Caley <simonc@movio.co>",
+  "license": "MIT",
+  "homepage": "https://github.com/movio/movio-nightwatch-examples#readme",
+  "dependencies": {
+    "chromedriver": "^2.21.2",
+    "nightwatch": "^0.9.8",
+    "selenium-server-standalone-jar": "^2.53.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "Movio",
+    "UI",
+    "Test",
+    "Automation"
+  ]
+}
