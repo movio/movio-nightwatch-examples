@@ -3,9 +3,7 @@ module.exports = {
    * This is the page object for Google.
    * Selectors are usually named by the labels on the page.
    */
-  url: function () {
-    return `http://www.google.com`;
-  },
+  url: () => 'http://www.google.com',
 
   elements: {
     body: {
